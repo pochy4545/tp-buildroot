@@ -1,0 +1,2 @@
+qemu-system-i386 -m 512 -kernel bzImage -initrd rootfs.cpio.xz (cpio)
+qemu-system-i386 -m 512 -kernel bzImage rootfs.ext4 -append root=/dev/sda (ext4)
